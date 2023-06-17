@@ -1,0 +1,3 @@
+# config/initializers/jwt.rb
+Rails.application.config.jwt_secret_key = 'fe191f3e465c182afc47a0d457b076692c2b3869df380e55df98b9b9b335a36066166da5c196bcfef39c9f01db1bfbdad9d6f34c9624bd1c70297232877ea80c'
+Rails.application.config.jwt_expiration_time = 24.hours.to_i
